@@ -1,0 +1,100 @@
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Yatzy</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <script src="https://code.jquery.com/jquery-3.1.0.slim.min.js"
+    integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8="
+    crossorigin="anonymous"></script>
+    <script src="service.js"></script>
+    <script src="yatzy.js"></script>
+    <script src="gui.js"></script>
+  </head>
+  <body>
+    <div id="diceArea">
+      <p>
+        <img src="img/die0.png" id="die1" />
+        <img src="img/die0.png" id="die2" />
+        <img src="img/die0.png" id="die3" />
+        <img src="img/die0.png" id="die4" />
+        <img src="img/die0.png" id="die5" />
+      </p>
+      <p>
+        <span id="throwCountText">Throw Count:</span>
+        <span id="throwCount"></span>
+        <button id="roll">roll</button>
+    </div>
+    <div id="scoringArea">
+      <table>
+        <tr>
+          <td>Ones</td>
+          <td><input type="text" id="result0" class="result" /></td>
+        </tr>
+        <tr>
+  				<td>Twos</td>
+  				<td><input type="text" id="result1" class="result" /></td>
+  			</tr>
+  			<tr>
+  				<td>Threes</td>
+  				<td><input type="text" id="result2" class="result" /></td>
+  			</tr>
+  			<tr>
+  				<td>Fours</td>
+  				<td><input type="text" id="result3" class="result" /></td>
+  			</tr>
+  			<tr>
+  				<td>Fives</td>
+  				<td><input type="text" id="result4" class="result" /></td>
+  			</tr>
+  			<tr>
+  				<td>Sixes</td>
+  				<td><input type="text" id="result5" class="result" /></td>
+  				<td>Sum</td>
+  				<td><input type="text" id="count_sum" /></td>
+  				<td>Bonus</td>
+  				<td><input type="text" id="bonus" /></td>
+  			</tr>
+  			<tr>
+  				<td>One Pair</td>
+  				<td><input type="text" id="result6" class="result" /></td>
+  			</tr>
+  			<tr>
+  				<td>Two Pairs</td>
+  				<td><input type="text" id="result7" class="result" /></td>
+  			</tr>
+  			<tr>
+  				<td>Three Same</td>
+  				<td><input type="text" id="result8" class="result" /></td>
+  			</tr>
+  			<tr>
+  				<td>Four Same</td>
+  				<td><input type="text" id="result9" class="result" /></td>
+  			</tr>
+  			<tr>
+  				<td>Full House</td>
+  				<td><input type="text" id="result10" class="result" /></td>
+  			</tr>
+  			<tr>
+  				<td>Small Straight</td>
+  				<td><input type="text" id="result11" class="result" /></td>
+  			</tr>
+  			<tr>
+  				<td>Large Straight</td>
+  				<td><input type="text" id="result12" class="result" /></td>
+  			</tr>
+  			<tr>
+  				<td>Chance</td>
+  				<td><input type="text" id="result13" class="result" /></td>
+  			</tr>
+  			<tr>
+  				<td>Yatzy</td>
+  				<td><input type="text" id="result14" class="result" /></td>
+  				<td>Sum</td>
+  				<td><input type="text" id="sum" /></td>
+  				<td>Total</td>
+  				<td><input type="text" id="total" /></td>
+  			</tr>
+      </table>
+    </div>
+  </body>
+</html>
